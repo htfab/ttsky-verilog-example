@@ -14,7 +14,6 @@ jobs:
           submodules: recursive
 
       - name: Build docs
-        uses: htfab/tt-gds-action/docs@ttsky25a
+        uses: TinyTapeout/tt-gds-action/docs@ttsky25a
         with:
-          tools-repo: htfab/tt-support-tools
           tools-ref: ttsky25a
